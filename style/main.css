@@ -1,0 +1,192 @@
+.main{
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: max-content;
+}
+
+.play-button:hover,
+.info-button:hover {
+    cursor: pointer;
+
+}
+
+.main-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-content-info {
+    color: white;
+    margin-left: 3vw;
+    margin-top: 10vw;
+}
+
+.main-content-container {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(77deg,rgba(0,0,0,.6),transparent 85%);
+}
+
+.main-image-title {
+    width: 35vw;
+    z-index: 10;
+}
+
+.top-10-info {
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+    font-size: 2vw;
+}
+
+.top-10-badge {
+    width: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-image-describe {
+    width: 32vw;
+    font-size: 1vw;
+}
+
+.main-button-container {
+    margin-top: 1vw;
+    border: none;
+    display: flex;
+}
+.play-button,
+.info-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3vw;
+
+    width: 8vw;
+    height: 3vw;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+.nav-contents {
+    position: relative;
+    margin-top: 8vw;
+}
+
+.top10-title {
+    margin-top: 10vw;
+    background: linear-gradient(180deg,hsla(0,0%,8%,0) 0,hsla(0,0%,8%,.15) 15%,hsla(0,0%,8%,.35) 29%,hsla(0,0%,8%,.58) 44%,#141414 68%,#141414)
+}
+
+.play-button {
+    background-color: #ffffff;
+    color: #000000;
+    margin-right: 1vw;
+}
+
+.info-button {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.info-icon,
+.play-icon {
+    width: 1vw;
+}
+
+.describe-title {
+    margin-left: 2vw;
+    font-size: 1.4vw;
+}
+
+.top-10contents {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.ranks {
+    display: flex;
+    margin-left: 1vw;
+    flex-shrink: 1;
+}
+
+.rank-icon,
+.top-img{
+    height: 12vw;
+}
+
+.describe-title {
+    margin-top: 3vw;
+}
+
+.etc-contents {
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 0.6vw;
+}
+.etc-contents img {
+    margin-right: 0.5vw;
+    border-radius: 0.2vw;
+
+    height: 8.5vw;
+}
+
+.top-10-info,
+.main-image-describe {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+
+}
+
+.another-profile {
+    border-radius: 0.2vw;
+    margin: 0.5vw 1vw;
+}
+
+.another-profile-container {
+    display: flex;
+    margin-right: 6vw;
+}
+
+.another-profile-name {
+    margin-top: 1vw;
+}
+
+.select-hover {
+    transition: transform 1s;
+}
+
+.select-hover:hover {
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+.etc-container {
+    display: flex;
+    margin: 0.5vw 1vw;
+}
+
+.etc-images {
+    height: 2vw;
+}
+
+.etc-explain {
+    margin-left: 1.5vw;
+    margin-top: 0.4vw;
+}
+
+.hidden-item {
+    display: none;
+    position: fixed;
+    right: 1vw;
+    top: 4vw;
+    background-color: rgba(22, 19, 17, 99%);
+    z-index: 100;
+    flex-direction: column;
+}
+
+.profile-dropdown:hover + .hidden-item,
+.profile-icon:hover + .hidden-item{
+    display: flex;
+}
